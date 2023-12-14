@@ -63,3 +63,31 @@ footer{
     margin-left: 10px;
     font-family : 'Homemade Apple', cursive;
 }
+
+@media (max-width: 768px) {
+    header {
+        height: 50vh; /* Altura más pequeña para pantallas más pequeñas */
+    }
+
+    .acerca {
+        padding-top: 10vh;
+    }
+
+    .acerca div h1 {
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+
+    .acerca div p {
+        font-size: 0.9em;
+        padding: 0 10px;
+    }
+
+    .acerca div a {
+        margin-left: 0;
+    }
+
+    footer {
+        margin-top: 10vh;
+    }
+}
